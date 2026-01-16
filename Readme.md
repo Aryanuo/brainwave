@@ -11,7 +11,7 @@ This project simulates network traffic, detects cyber attacks using ML, and trig
 - 📝 Explainable results for SOC visibility
 
 ## 🧱 System Architecture
-Simulation → Backend API → OnDemand Agents → Streamlit Dashboard
+Simulation → Backend API → ML Model → OnDemand Agents → Streamlit Dashboard
 
 ### OnDemand Agent Pipeline:
 1. Traffic Monitoring  
@@ -38,7 +38,7 @@ The backend uses an ML model to classify:
 - Python, Streamlit, Plotly/Matplotlib
 
 **Backend**
-- FastAPI/Flask, Scikit‑Learn
+- Flask, Scikit‑Learn
 
 **Automation (OnDemand Track)**
-- Custom AI Agents, REST API Integration
+- Custom AI Agents
