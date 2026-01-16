@@ -41,15 +41,7 @@ def run_main():
 
         time.sleep(5)
         i +=1 
-        print("\n--- TESTING GET ENDPOINT ---")
-        try:
-            get_res = requests.get(API_URL)
-            print(f"Status: {get_res.status_code}")
-            if get_res.status_code == 200:
-                data = get_res.json()
-                print(f"Records found:",data)
-        except Exception as e:
-            print(f"Error connecting to GET: {e}")
+      
 
 if __name__ == "__main__":
     run_main()
